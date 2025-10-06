@@ -1,0 +1,39 @@
+{
+    "name": "Saba P",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {            "localized_name": "Saba P",
+            "localized_name_stylized": " [[Saba {{Papava}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Backend Developer",
+                "Frontend Developer",
+                "Optimization & SEO:",
+                "WordPress",
+                "Laravel, Vue.js",
+                "Maintenance & Support"
+                
+            ],
+            "name_pronunciation_ipa": "Saba P",
+            "name_pronunciation_audio_url": "audio/english-name-pronunciation.m4a"
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Backend",
+                "Desarrollador Frontend",
+                "Ingeniero DevOps",
+                "Diseñador UX"
+            ]
+        }
+       
+    
+    }
+}

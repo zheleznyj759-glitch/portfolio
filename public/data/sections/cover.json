@@ -1,0 +1,338 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Saba P!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Saba P!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Saba P !}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Tbilish – Georgia",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-Sabaer"
+                },
+                {
+                    "id": 2,
+                    "label": "freelnc@gmail.com",
+                    "link": {"href": "freelnc111@gmail.com", "tooltipString": "mail_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@zheleznyj759-glitch",
+                    "link": {"href": "https://github.com/zheleznyj759-glitch", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{motivated full-stack web}} developer with [[strong expertise]] in Laravel, Vue.js, and WordPress. I help startups and businesses build applications that are fast, secure, and scalable.</p><p>With experience ranging from custom business websites to complete web applications,</p><p>I focus on writing clean, maintainable code and delivering results that create [[long-term value.!]]</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un desarrollador de {{PHP}} con [[más de una década]] de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos, ya sea construyendo APIs escalables, optimizando el rendimiento de sistemas o contribuyendo a soluciones full-stack.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis développeur {{PHP}} avec [[plus d'une décennie]] d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets, qu'il s'agisse de créer des API évolutives, d'améliorer les performances système ou de participer à des solutions full-stack.</p><p>Je suis impatient de collaborer [[avec vous !]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"},
+                "es": {"title": "Testimonios de {{clientes}}"},
+                "fr": {"title": "Témoignages de {{clients}}"},
+                "ko": {"title": "{{고객}} 추천사"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Anita Bath",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[SalesForce]]",
+                            "text": "Working with Saba was a truly [[transformative experience]]. His outstanding programming skills and collaborative spirit not only elevated the quality of our project but also brought a renewed sense of motivation and purpose to us."
+                        },
+                        "es": {
+                            "title": "CEO en [[SalesForce]]",
+                            "text": "Trabajar con Saba fue una [[experiencia transformadora]]. Su gran habilidad para programar y su espíritu colaborativo mejoraron el proyecto y nos devolvieron la motivación y el propósito."
+                        },
+                        "fr": {
+                            "title": "PDG de [[SalesForce]]",
+                            "text": "Travailler avec Saba fut une [[expérience transformante]]. Ses compétences en programmation et son esprit d’équipe ont élevé le projet et ravivé notre motivation et notre but."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Lou Natic",
+                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Lead Developer at [[GitHub]]",
+                            "text": "Having Saba on our team was an invaluable asset. His [[deep programming insights and mentorship]] not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        },
+                        "es": {
+                            "title": "Desarrollador Principal en [[GitHub]]",
+                            "text": "Tener a Saba fue un recurso invaluable. Sus [[profundos conocimientos y mentoría]] mejoraron nuestros proyectos y nos dieron confianza para afrontar cualquier desafío con creatividad."
+                        },
+                        "fr": {
+                            "title": "Développeur Principal chez [[GitHub]]",
+                            "text": "La présence de Saba fut un atout inestimable. Ses [[connaissances en programmation et son mentorat]] ont renforcé nos projets et notre capacité à relever les défis avec assurance."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Paige Turner",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Managing Director at [[Dingga]]",
+                            "text": "Collaborating with Saba was a true [[game changer]] for our entire development process. His [[deep technical expertise]], creative problem-solving, and proactive mindset were absolutely invaluable."
+                        },
+                        "es": {
+                            "title": "Directora General en [[Dingga]]",
+                            "text": "Colaborar con Saba fue un verdadero [[punto de inflexión]]. Su [[gran experiencia técnica]], creatividad y mentalidad proactiva fueron absolutamente invaluables para nuestro equipo."
+                        },
+                        "fr": {
+                            "title": "Directrice Générale chez [[Dingga]]",
+                            "text": "Travailler avec Saba a été un vrai [[tournant]]. Son [[expertise technique approfondie]], sa créativité et sa proactivité ont été d’une valeur inestimable pour notre développement."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Saba P's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
+                        },
+                        "es": {
+                            "title": "Director Creativo en [[Dribbble]]",
+                            "text": "La [[atención al detalle]] y el [[pensamiento innovador]] de Saba P aportaron una perspectiva fresca a todo nuestro proceso de diseño. ¡Simplemente increíble!"
+                        },
+                        "fr": {
+                            "title": "Directeur Créatif chez [[Dribbble]]",
+                            "text": "L’[[attention aux détails]] et la [[pensée innovante]] de Saba P ont apporté une perspective nouvelle à tout notre processus de design ! Simplement incroyable !"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{AI}} video editing",
+                            "text": "Learning to use AI tools to enhance my videos."
+                        },
+                        "es": {
+                            "title": "Edición de video con {{AI}}",
+                            "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        },
+                        "fr": {
+                            "title": "Édition vidéo avec {{IA}}",
+                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Practicing digital art and exploring new styles."
+                        },
+                        "es": {
+                            "title": "{{Arte}} y Ilustración",
+                            "text": "Practicando arte digital y explorando nuevos estilos."
+                        },
+                        "fr": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Investing}} & Finance",
+                            "text": "Learning the basics of stocks and personal finance."
+                        },
+                        "es": {
+                            "title": "{{Inversión}} y Finanzas",
+                            "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        },
+                        "fr": {
+                            "title": "{{Investissement}} & Finance",
+                            "text": "Apprendre les bases des actions et des finances personnelles."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{UX}} design",
+                            "text": "Studying user experience principles."
+                        },
+                        "es": {
+                            "title": "Diseño {{UX}}",
+                            "text": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception {{UX}}",
+                            "text": "Étudier les principes de l'expérience utilisateur."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Photography}} & Photoshop",
+                            "text": "Enhancing photos through creative editing techniques."
+                        },
+                        "es": {
+                            "title": "{{Fotografía}} y Photoshop",
+                            "text": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "{{Photographie}} & Photoshop",
+                            "text": "Améliorer des photos avec des techniques de montage créatives."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{drums}}",
+                            "text": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar {{batería}}",
+                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la {{batterie}}",
+                            "text": "Explorer différents genres et améliorer mes compétences."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

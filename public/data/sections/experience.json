@@ -38,59 +38,23 @@
                 "order_items_sort": "dateStart"
             },
             "items": [
-                {
-                    "id": 1,
-                    "img": "images/pictures/timeline-place-sapphire-studio.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2021, "month": 3},
-                    "dateEnd": {"year": 2021, "month": 6},
-                    "locales": {
-                        "en": {
-                            "title": "{{Backend}} Developer",
-                            "province": "Tbilisi",
-                            "country": "Georgia",
-                            "institution": "Sapphire Studio",
-                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "list": [],
-                            "tags": ["PHP8.0", "MySQL", "Laravel"]
-                        },
-                        "es": {
-                            "title": "Desarrollador {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canadá",
-                            "institution": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve [[sistemas backend escalables]] para varios clientes, optimizando el rendimiento de bases de datos e implementando APIs RESTful para mejorar la funcionalidad de las aplicaciones.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "Développeur {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Développement et maintenance de [[systèmes backend évolutifs]] pour divers clients, optimisation des performances des bases de données et mise en place d’API RESTful pour améliorer les fonctionnalités des applications.",
-                            "list": [],
-                            "tags": []
-                        }
-                    }
-                },
+               
                 {
                     "id": 2,
                     "img": "images/pictures/timeline-place-coursera.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2021, "month": 6},
-                    "dateEnd": {"year": 2022, "month": 12},
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2023, "month": 12},
                     "locales": {
                         "en": {
                             "title": "{{Full-Stack}} Engineer",
                             "province": "",
-                            "country": "Remote",
+                            "country": "Remote when in university",
                             "institution": "Coursera",
                             "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
                             "list": [],
-                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                            "tags": ["NodeJS", "Laravel", "REST APIs", "Docker"]
                         },
                         "es": {
                             "title": "Ingeniero {{Full-Stack}}",
@@ -126,7 +90,7 @@
                     "img": "images/pictures/timeline-place-adobe.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2022, "month": 12},
+                    "dateStart": {"year": 2024, "month": 1},
                     "dateEnd": {"year": 2024, "month": 9},
                     "locales": {
                         "en": {
@@ -164,7 +128,7 @@
                     "img": "",
                     "faIcon": "fa-brands fa-apple",
                     "faIconColors": {"bg": "#111", "fill": "#EEE"},
-                    "dateStart": {"year": 2022, "month": 12},
+                    "dateStart": {"year": 2024, "month": 10},
                     "dateEnd": {"now": true},
                     "locales": {
                         "en": {
@@ -180,7 +144,7 @@
                                 "Optimizing database performance with PostgreSQL",
                                 "Building services with Swift, PHP, and GraphQL"
                             ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs"]
                         },
                         "es": {
                             "title": "Desarrollador {{Senior Backend}}",

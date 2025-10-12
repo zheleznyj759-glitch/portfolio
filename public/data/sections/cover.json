@@ -35,22 +35,30 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Tbilish – Georgia",
+                    "label": "Tbilish Georgia",
                     "link": {"href": "", "tooltipString": ""},
-                    "faIcon": "pi pi-map-Sabaer"
+                    "faIcon": "pi pi-map"
                 },
                 {
                     "id": 2,
-                    "label": "freelnc@gmail.com",
+                    "label": "My Mail",
                     "link": {"href": "freelnc111@gmail.com", "tooltipString": "mail_me"},
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
                     "id": 3,
-                    "label": "@zheleznyj759-glitch",
+                    "label": "Kingsenior",
                     "link": {"href": "https://github.com/zheleznyj759-glitch", "tooltipString": "see_on_github"},
                     "faIcon": "fa-brands fa-github"
                 }
+,
+                {
+                    "id": 4,
+                    "label": "Linkedin",
+                    "link": {"href": "https://www.linkedin.com/in/saba-papava-378726388/", "tooltipString": "see_on_linkedin"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+                
             ]
         },
 

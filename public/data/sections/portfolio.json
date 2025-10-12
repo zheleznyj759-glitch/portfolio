@@ -35,31 +35,28 @@
             "locales": {
                 "en": {
                     "category_all": "All",
-                    "category_apps": "Apps",
+                   
                     "category_web": "Web",
                     "category_utilities": "Utilities"
                 },
                 "es": {
                     "category_all": "Todo",
-                    "category_apps": "Apps",
                     "category_web": "Web",
                     "category_utilities": "Utilidades"
                 },
                 "fr": {
                     "category_all": "Tout",
-                    "category_apps": "Apps",
                     "category_web": "Web",
                     "category_utilities": "Utilitaires"
                 },
                 "ko": {
                     "category_all": "모두",
-                    "category_apps": "앱",
                     "category_web": "웹",
                     "category_utilities": "유틸리티"
                 }
             },
             "settings": {
-                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "categorize_by": [ "category_web", "category_utilities"],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
@@ -72,18 +69,9 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
+                           
+                        ]
+                    
                     },
                     "locales": {
                         "en": {
@@ -105,89 +93,8 @@
                         }
                     }
                 },
-                {
-                    "id": 2,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-7.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
-                        ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Light Blue",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
+               
+                
                 {
                     "id": 4,
                     "categoryId": "category_web",
@@ -197,12 +104,8 @@
                     "preview": {
                         "links": [
                             {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                        ]
+                        
                     },
                     "locales": {
                         "en": {
@@ -227,46 +130,7 @@
                         }
                     }
                 },
-                {
-                    "id": 5,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-2.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
+                
                 {
                     "id": 6,
                     "categoryId": "category_web",
@@ -275,13 +139,8 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                           
+                        ]
                     },
                     "locales": {
                         "en": {
@@ -314,13 +173,10 @@
                     "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
                         ],
                         "screenshots": [
 
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        ]
                     },
                     "locales": {
                         "en": {
@@ -357,9 +213,7 @@
                         ],
                         "screenshots": [
 
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        ]
                     },
                     "locales": {
                         "en": {
@@ -392,15 +246,11 @@
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                           
                         ],
                         "screenshots": [
 
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        ]
                     },
                     "locales": {
                         "en": {

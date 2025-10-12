@@ -38,48 +38,7 @@
                 "order_items_sort": "asc"
             },
             "items": [
-                {
-                    "id": 1,
-                    "img": null,
-                    "faIcon": "fa-solid fa-tablet-screen-button",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "03",
-                            "text": "Apps Published"
-                        },
-                        "es": {
-                            "text": "Aplicaciones Publicadas"
-                        },
-                        "fr": {
-                            "text": "Applications Publiées"
-                        },
-                        "ko": {
-                            "text": "출시된 앱"
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": null,
-                    "faIcon": "fa-solid fa-star",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "100+",
-                            "text": "Stars on GitHub"
-                        },
-                        "es": {
-                            "text": "Estrellas en GitHub"
-                        },
-                        "fr": {
-                            "text": "Étoiles sur GitHub"
-                        },
-                        "ko": {
-                            "text": "GitHub의 별"
-                        }
-                    }
-                },
+               
                 {
                     "id": 3,
                     "img": null,
@@ -101,27 +60,7 @@
                         }
                     }
                 },
-                {
-                    "id": 4,
-                    "img": null,
-                    "faIcon": "fa-solid fa-diagram-project",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "07",
-                            "text": "Open-source projects"
-                        },
-                        "es": {
-                            "text": "Proyectos de Código Abierto"
-                        },
-                        "fr": {
-                            "text": "Projets Open-source"
-                        },
-                        "ko": {
-                            "text": "오픈 소스 프로젝트"
-                        }
-                    }
-                },
+          
                 {
                     "id": 5,
                     "img": null,
@@ -206,72 +145,7 @@
                 "order_items_sort": "desc"
             },
             "items": [
-                {
-                    "id": 1,
-                    "date": {"year": 2024, "month": 12},
-                    "preview": {
-                        "links": [
-                            {"href": "https://medium.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"}
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Working on a new {{mobile project!}}",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "",
-                            "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
-                            "list": [
-                                "Cross-platform compatibility with iOS and Android",
-                                "User-friendly interface with intuitive navigation",
-                                "Integration with popular APIs for enhanced functionality",
-                                "Real-time data synchronization for seamless user experience"
-                            ]
-                        },
-                        "es": {
-                            "title": "Trabajando en un nuevo {{proyecto móvil!}}",
-                            "province": "California",
-                            "country": "EE.UU.",
-                            "institution": "",
-                            "text": "Estoy emocionado de compartir que actualmente estoy trabajando en un nuevo proyecto móvil! Algunas características de este proyecto incluyen:",
-                            "list": [
-                                "Compatibilidad multiplataforma con iOS y Android",
-                                "Interfaz amigable con navegación intuitiva",
-                                "Integración con APIs populares para funcionalidad mejorada",
-                                "Sincronización de datos en tiempo real para una experiencia de usuario fluida"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Travail sur un nouveau {{projet mobile!}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "",
-                            "text": "Je suis ravi de partager que je travaille actuellement sur un nouveau projet mobile ! Certaines fonctionnalités de ce projet incluent :",
-                            "list": [
-                                "Compatibilité multiplateforme avec iOS et Android",
-                                "Interface conviviale avec une navigation intuitive",
-                                "Intégration avec des API populaires pour une fonctionnalité améliorée",
-                                "Synchronisation des données en temps réel pour une expérience utilisateur fluide"
-                            ]
-                        },
-                        "ko": {
-                            "title": "{{모바일 프로젝트!}} 작업 중",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "",
-                            "text": "현재 새로운 모바일 프로젝트를 작업 중입니다! 이 프로젝트의 몇 가지 기능은 다음과 같습니다:",
-                            "list": [
-                                "iOS 및 Android와의 크로스 플랫폼 호환성",
-                                "직관적인 탐색을 갖춘 사용자 친화적인 인터페이스",
-                                "기능 향상을 위한 인기 API 통합",
-                                "원활한 사용자 경험을 위한 실시간 데이터 동기화"
-                            ]
-                        }
-                    }
-                },
+                
                 {
                     "id": 2,
                     "date": {"year": 2025, "month": 3},
@@ -309,73 +183,6 @@
                             "country": "일본",
                             "institution": "Tech Innovators Inc.",
                             "text": "[[2025년 도쿄에서 열리는]] 기술 컨퍼런스에 참석하게 되어 매우 기쁩니다! 이 행사는 업계 리더들과 연결하고 최신 기술 트렌드를 배우며, 다른 기술 애호가들과 통찰력을 공유할 수 있는 환상적인 기회입니다. 토론에 참여하고, 워크숍에 참석하며, 우리 산업의 미래를 형성하는 혁신적인 솔루션을 탐색할 수 있기를 기대합니다. 컨퍼런스에 참석하신다면, 함께 연결해요! 다른 개발자와 기술 애호가들을 만나고 싶습니다. 행사에서의 업데이트와 하이라이트를 기대해 주세요!"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "date": {"year": 2025, "month": 6},
-                    "preview": {
-                        "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Launched my {{personal website!}}",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "",
-                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
-                            "list": [
-                                "Portfolio showcasing my projects and contributions",
-                                "Blog with articles on technology, coding, and personal experiences",
-                                "Contact form for inquiries and collaborations",
-                                "Links to my social media profiles and GitHub"
-                            ]
-                        },
-                        "es": {
-                            "title": "¡Lanzamiento de mi {{sitio web personal!}}",
-                            "province": "California",
-                            "country": "EE.UU.",
-                            "institution": "",
-                            "text": "Estoy emocionado de anunciar el lanzamiento de mi [[sitio web personal]]! 🎉 Esta plataforma es un espacio donde puedo compartir mis proyectos, publicaciones de blog y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido un trabajo de amor, y no puedo esperar a que todos lo exploren. Aquí hay algunos aspectos destacados de lo que puedes encontrar en el sitio:",
-                            "list": [
-                                "Portafolio que muestra mis proyectos y contribuciones",
-                                "Blog con artículos sobre tecnología, codificación y experiencias personales",
-                                "Formulario de contacto para consultas y colaboraciones",
-                                "Enlaces a mis perfiles en redes sociales y GitHub"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Lancement de mon {{site web personnel!}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "",
-                            "text": "Je suis ravi d'annoncer le lancement de mon [[site web personnel]] ! 🎉 Cette plateforme est un espace où je peux partager mes projets, articles de blog et réflexions sur le monde de la technologie et du développement. C'est un travail de passion, et j'ai hâte que vous l'exploriez tous. Voici quelques points forts de ce que vous pouvez trouver sur le site :",
-                            "list": [
-                                "Portfolio présentant mes projets et contributions",
-                                "Blog avec des articles sur la technologie, la programmation et mes expériences personnelles",
-                                "Formulaire de contact pour les demandes et collaborations",
-                                "Liens vers mes profils sur les réseaux sociaux et GitHub"
-                            ]
-                        },
-                        "ko": {
-                            "title": "{{개인 웹사이트!}} 출시",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "",
-                            "text": "개인 웹사이트를 출시하게 되어 매우 기쁩니다! 🎉 이 플랫폼은 제가 프로젝트, 블로그 게시물 및 기술과 개발 세계에 대한 통찰력을 공유할 수 있는 공간입니다. 사랑으로 만든 결과물이며, 여러분이 탐험하기를 기대합니다. 사이트에서 찾을 수 있는 몇 가지 하이라이트는 다음과 같습니다:",
-                            "list": [
-                                "프로젝트와 기여를 보여주는 포트폴리오",
-                                "기술, 코딩 및 개인 경험에 관한 블로그",
-                                "문의 및 협업을 위한 연락처 양식",
-                                "소셜 미디어 프로필 및 GitHub 링크"
-                            ]
                         }
                     }
                 }
